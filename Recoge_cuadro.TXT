@@ -1,0 +1,52 @@
+class program {
+
+program() {
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    turnleft();
+    move();
+    turnleft();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    move();
+    pickbeeper();
+    turnoff();
+}
+
+}
