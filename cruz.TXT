@@ -2,7 +2,7 @@ class program {
 
 program() {
     iterate(4){
-    iterate(3)
+        iterate(3)
             turnleft();
         move();
         iterate(2)
