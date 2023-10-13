@@ -1,0 +1,29 @@
+class program {
+    void giro(){
+            iterate(3){
+                turnleft();
+            }
+    }
+    void avanza(n){
+            iterate(n){
+                pickbeeper();
+                move();
+            }
+    }
+    void si(n){
+                avanza(n);
+            giro();
+    }
+    program() {
+            iterate(3){
+            si(3);
+            }
+            si(2);
+            si(2);
+            si(1);
+            si(1);
+            pickbeeper();
+        turnoff();
+}
+}
+}
