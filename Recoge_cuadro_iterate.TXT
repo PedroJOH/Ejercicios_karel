@@ -1,44 +1,33 @@
 class program {
 
 program() {
-    iterate(3){
-        pickbeeper();
-        move();
-    };
-    pickbeeper();
 
-    iterate(3){
-        turnleft();
-    };
-    move();
-    iterate(3){
-        turnleft();
-    };
-    iterate(3){
+        iterate(3){
+        iterate(3){
         pickbeeper();
         move();
-    }
-    pickbeeper();
-    turnleft();
-    move();
-    turnleft();
-    iterate(3){
-        pickbeeper();
-        move();
-    };
-    pickbeeper();
-    iterate(3){
+        }
+        iterate(3){
         turnleft();
-    };
-    move();
-    iterate(3){
-        turnleft();
-    };
-    iterate(3){
-        pickbeeper();
-        move();
-    }
-    pickbeeper();
+        }
+       }
+       iterate(2){
+       iterate(2){
+       pickbeeper();
+       move();
+       }
+       iterate(3){
+       turnleft();
+       }
+       }
+       pickbeeper();
+       move();
+       iterate(3){
+       turnleft();
+       }
+       pickbeeper();
+       move();
+       pickbeeper();
     turnoff();
 }
 }
