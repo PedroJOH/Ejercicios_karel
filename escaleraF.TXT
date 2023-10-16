@@ -1,0 +1,17 @@
+class program {
+   void giro_avanza(){
+       turnleft();
+       move();
+       iterate(3)
+           turnleft();
+       move();
+   }
+
+program() {
+    iterate(4)
+        giro_avanza();
+    iterate(2)
+        turnleft();
+    turnoff();
+}
+}
