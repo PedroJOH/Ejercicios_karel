@@ -1,0 +1,21 @@
+class program {
+    void avanza(){
+        iterate(5)
+            move();
+    }
+    void giro(n){
+        iterate(n)
+           turnleft();
+        move();
+    }
+
+program() {
+    avanza();
+    iterate(2)
+        giro(3);
+    iterate(4)
+        giro(4);
+    turnoff();
+}
+
+}
