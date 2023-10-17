@@ -1,0 +1,45 @@
+class program {
+
+program() {
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    turnleft();
+    turnleft();
+    turnleft();
+
+    turnoff();
+}
+
+}
