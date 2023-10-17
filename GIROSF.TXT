@@ -1,15 +1,17 @@
 class program {
-   void caminata(n){
-       iterate(n){
-       iterate(4){
+   void giro(){
+       iterate(4)
            turnleft();
    }
-       move();
-       move();
-   }
+   void avanza(){
+       iterate(2)
+           move();
    }
     program() {
-        caminata(4);
+        iterate(4){
+            giro();
+            avanza();
+        }
         turnoff();
 }
 }
