@@ -7,7 +7,7 @@ class program {
 program() {
     iterate(4){
         giro(3);
-    giro(2);
+        giro(2);
     }
     turnoff();
 }
