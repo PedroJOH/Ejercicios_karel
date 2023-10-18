@@ -1,0 +1,11 @@
+class program {
+
+program() {
+    while(notFacingNorth)
+        turnleft();
+    while(notNextToABeeper)
+        move();
+    turnoff();
+}
+
+}
