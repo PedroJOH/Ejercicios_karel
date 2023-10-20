@@ -1,0 +1,23 @@
+class program {
+
+
+program() {
+  while(rightIsBlocked) {
+    move();
+  }
+  iterate(2) {
+    iterate(3) {
+      turnleft();
+    }
+    move();
+  }
+  while(frontIsClear) {
+    iterate(4) {
+      turnleft();
+    }
+    move();
+  }
+  turnoff();
+}
+
+}
