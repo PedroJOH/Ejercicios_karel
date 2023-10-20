@@ -1,0 +1,30 @@
+class program {
+
+
+program() {
+  while(frontIsBlocked) {
+    while(rightIsBlocked) {
+      while(frontIsBlocked) {
+        turnleft();
+      }
+      while(rightIsBlocked) {
+        while(frontIsBlocked) {
+          turnleft();
+        }
+        move();
+      }
+      iterate(3) {
+        turnleft();
+      }
+      move();
+    }
+  }
+  turnleft();
+  iterate(2) {
+    turnleft();
+    move();
+  }
+  turnoff();
+}
+
+}
