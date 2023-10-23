@@ -1,0 +1,24 @@
+class program {
+    void giro(){
+        iterate(3)
+            turnleft();
+        move();
+    }
+program() {
+    iterate(10){
+        if(nextToABeeper)
+            pickbeeper();
+        if(frontIsBlocked){
+            turnleft();
+            move();
+            iterate(2)
+                giro();
+            turnleft();}
+         else{
+             move();
+        }
+    }
+    turnoff();
+}
+
+}

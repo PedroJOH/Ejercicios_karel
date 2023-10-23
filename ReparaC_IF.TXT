@@ -1,0 +1,24 @@
+class program {
+    void poner(){
+        if(notNextToABeeper){
+            putbeeper();
+        }
+    }
+    void gira(){
+        iterate(3)
+        turnleft();
+    }
+
+program() {
+    iterate(4){
+        poner();
+        iterate(6){
+            move();
+            poner();
+        }
+        gira();
+    }
+    turnoff();
+}
+
+}

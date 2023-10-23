@@ -1,0 +1,15 @@
+class program {
+
+program() {
+    iterate(15){
+        move();
+        if(nextToABeeper)
+            pickbeeper();
+    }
+    iterate(2)
+        turnleft();
+    iterate(15)
+        move();
+    turnoff();
+}
+}
