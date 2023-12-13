@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T19:40:54.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.1.8" etag="nJBeQ40QViydWgkPxqCQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T19:42:22.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="44dffiLM0YVwIz7lbfIV" version="22.1.8" type="github">
   <diagram name="Página-1" id="DE_O8TjWzz9FJRSdt5aA">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Inicio&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Fin&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-6" target="DfnQeSPhowTFWAFTJtV0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-6" value="fIB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-7" value="turnleft" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-7" target="DfnQeSPhowTFWAFTJtV0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="240" />
+              <mxPoint x="660" y="240" />
+              <mxPoint x="660" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-11" value="class program {&#xa;&#xa;&#xa;program() {&#xa;    while(notFacingNorth)&#xa;        turnleft();&#xa;    while(notNextToABeeper)&#xa;        move();&#xa;    turnoff();&#xa;}&#xa;&#xa;&#xa;}" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-14" target="DfnQeSPhowTFWAFTJtV0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-14" value="fIB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-15" value="move" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfnQeSPhowTFWAFTJtV0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DfnQeSPhowTFWAFTJtV0-15" target="DfnQeSPhowTFWAFTJtV0-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="440" />
+              <mxPoint x="660" y="440" />
+              <mxPoint x="660" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
